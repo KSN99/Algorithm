@@ -10,8 +10,8 @@ def count(self, value: Any) -> bool:
     """
     c=0
     for i in range(self.ptr): #바닥쪽부터 선형 검색
-        if self.stk[i] == value
-        c+=1
+        if self.stk[i] == value:
+            c +=1
     return c  
 
 def __contains__(self, value:Any) -> bool:
