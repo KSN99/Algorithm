@@ -8,7 +8,7 @@ def seq_search(a: Sequence, key: Any) -> int:
 
     while True:
         if i==len(a):
-            return -1
+            return -1   #검색에 실패하여 -1을 반환 
         if a[i]==key:
             return i  #검색에 성공하여 현재 검사한 배열의 인덱스를 반환
         
