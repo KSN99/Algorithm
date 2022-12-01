@@ -19,7 +19,7 @@ if __name__=='__main__':
     x = [None] * num
 
     for i in range(num):
-        x[i] = int(input(f'x[{i}]'))
+        x[i] = int(input(f'x[{i}]: '))
 
     ky= int(input('검색할 값: ')) #검색할 ky를 입력받음
 
